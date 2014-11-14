@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Review Analyzer</title>
+<!--	<script src="jquery.min.js"></script>  -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>  
+	<script type="text/javascript" src="spin.min.js"></script>
+	<script type="text/javascript"> 				//Common array for both the JS Files
+		var reviewStore = []; 
+		
+	</script>
+	<script src="search.js"></script>
+	<script src="negative-reviews.js"></script>
+	<script src="positive-reviews.js"></script>
+	<script src="PorterStemmer1980.min.js"></script>
+	<script src="sentiment.js"></script>
+	<link rel="stylesheet" href="styles.css"/>
+	<link rel="shortcut icon" href="favicon.ico" > 
+</head>
+
+<body>
+    <div id="container">
+	<div id="heading">
+	<h1>ReviewAnalyzer</h1>
+	</div>
+    
+	<div id="testResult">
+	<button class="dirbutton" id="test">Test Analyzer</button>
+	</div>
+	
+	<div id="search" class="ui-widget"> 
+<!--	<form id="searchbox" action="">-->
+        <input type="text" id="inputMovie"  placeholder="Search by Movie name"/>
+		<input id="findMovie" type="button" class="dirbutton" value="Find Movie">
+		<button class="dirbutton" id="review" style="display:none;">Analyze Reviews</button>
+<!--		<div id="spin"></div>
+		</form>-->
+	</div>
+	
+	<div id="result"></div>
+	<div id="reviewResult"></div>
+	<div id="summary"></div>
+    <div id="note1"><a href="Documentation.html" target="_blank"><img src="favicon.ico"><img></a></div>
+	</div>
+</body>
+</html>
