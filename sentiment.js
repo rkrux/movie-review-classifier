@@ -241,20 +241,6 @@ function guess(input) {
                         wordProb = 0.99;
                     else if (wordProb === 0)
                         wordProb = 0.01;
-
-                    /*
-				if (wordLabelProb === 1)
-					wordLabelProb = 0.9999;
-				else if (wordLabelProb === 0)
-					wordLabelProb = 0.0001;
-				if (wordInverseLabelProb === 1)
-					wordInverseLabelProb = 0.9999;
-				else if (wordInverseLabelProb === 0)
-					wordInverseLabelProb = 0.0001;    
-				num *= wordLabelProb;
-				den *= wordInverseLabelProb;
-				var wordProb = ((3*0.5) + (_stemTotalCount*wordicity)) / (3 + _stemTotalCount);
-                        */
                     //	console.log(word, wordLabelProb, wordInverseLabelProb);
 
 
