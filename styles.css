@@ -1,0 +1,73 @@
+#header {height:150px; width:600px; text-align:center;float:left;}
+#search {height:150px; text-align:center;}
+#left {position:absolute; top:170px; width:350px; margin:1%; color: #333333; font: 14px ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;}
+#middle {position:absolute; top:170px; left:350px; width:500px; margin:1%; color: #333333; font: 14px ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;}
+#right {position:absolute; top:170px; left:850px;width:500px; margin:1%; color: #333333; font: 14px ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;}
+#footer {position:absolute; right:0%; top:0%;}
+
+#listred{background:#FFE5B4; margin:1%;}
+#listgreen{background:#E0FFFF; margin:1%;}
+#listneutral{background:#E2CAFA; margin:1%;}
+#summary{color: #333333; font: bold 20px Century Gothic, sans-serif;}
+
+#name {font-size:28px; margin:1%;}
+#name a{text-decoration: none;}
+#name a:hover{font-size:30px;}
+#year {font-size: 17px; color:#990F8B; margin:1%;}
+#runtime {font-size: 17px; color:#990F8B; margin:1%;}
+#audience{font-size: 17px; color:#BA8013; margin:1%;}
+#critics {font-size: 17px; color:#35B047; margin:1%;}
+#mpr {font-size: 17px; color:#ED2662; margin:1%;}
+#cast {clear:both; font:bold 17px ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;}
+#syn {}
+#thumbnail{float:left;}
+
+#inputMovie {
+    position: relative;
+	top:25%;
+	left:5%;
+	margin-top:3%;
+    vertical-align:middle;
+    outline:none;
+    background: url('search-dark.png') no-repeat 15px 15px #fcfcfc;
+    border: 0 none;
+	color: #333333;
+	font:  20px Tahoma, Geneva, sans-serif;
+    width:400px;
+	float:left;
+    padding: 10px 20px 10px 50px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 200px;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 5px 1px rgba(0, 0, 0, 0.7) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 5px 1px rgba(0, 0, 0, 0.7) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 5px 1px rgba(0, 0, 0, 0.7) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+    }
+	
+#findMovie {
+	position: relative;
+	top:27%;
+	left:-1%;
+	margin-top:3.3%;
+	background: #FEDA71;
+	background: -moz-linear-gradient(top,#FEDA71 0%,#FEBB49 100%);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#FEDA71),color-stop(100%,#FEBB49));
+	background: -webkit-linear-gradient(top,#FEDA71 0%,#FEBB49 100%);
+	background: -o-linear-gradient(top,#FEDA71 0%,#FEBB49 100%);
+	background: -ms-linear-gradient(top,#FEDA71 0%,#FEBB49 100%);
+	background: linear-gradient(top,#FEDA71 0%,#FEBB49 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#FEDA71',endColorstr='#FEBB49',GradientType=0);
+	padding:8px 18px;
+	color:#623F1D;
+	font-family:'Helvetica Neue',sans-serif;
+	font-size:16px;
+	border-radius:48px;
+	-moz-border-radius:48px;
+	-webkit-border-radius:48px;
+	border:1px solid #623F1D
+} 

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+	<title>Movie Review Classifier</title>
+	<link rel="stylesheet" href="styles.css"/>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+	<script src="search.js"></script>
+	<script src="negative-reviews.js"></script>
+	<script src="positive-reviews.js"></script>
+	<script src="PorterStemmer1980.min.js"></script>
+	<script src="sentiment.js"></script>
+	<link rel="shortcut icon" href="favicon.ico" > 
+	<script type="text/javascript">
+	function promptInfo(){
+		alert("This application classifies the movie reviews provided by the Rotten Tomatoes API using the modified Bayes Classifier. Movie details such as year, runtime, audience and critics rating, etc. are shown on the left. Reviews are shown in the middle and the right. Reviews in peach are analyzed as negative and the ones in cyan as positive. Below every review, name of the critic, reviews's publication, the probability of the classified sentiment, and date are shown. For best results, search for English movies.");
+	}
+	</script>
+</head>
+<body>
+<div id="header"><img src="Logo2.png"></div>
+<div id="search">
+	 <input type="text" id="inputMovie" name="inputMovie" size="40" placeholder="Search by Movie Name"/>
+	 <input id="findMovie" type="button" value="Find it!">
+	 <p id="summary"></p>
+</div>
+<div id="left"></div>
+<div id="middle"></div>
+<div id="right"></div>
+
+<div id="footer"> © Rushil Kapoor 2015 <img src="favicon.ico" onclick = "promptInfo()"></img> 
+</div>
+
+</body>             
+</html>             
