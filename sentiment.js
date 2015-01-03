@@ -1,3 +1,8 @@
+/*
+The following is not free application. You may use it for educational purposes, but you may not redistribute or use it commercially.
+(C) All Rights Reserved, Rushil Kapoor 2014
+*/
+
 var positiveDocs, positiveUnique = 0, positiveWords = {},
     negativeDocs, negativeUnique = 0, negativeWords = {}, pivot;
 var negationCheck = new RegExp("^(never|no|nothing|nowhere|nobody|none|not|haven|hasn|hadn|couldn|shouldn|wouldn|doesn|didn|isn|aren|neither|nor|cant|wont|dont)$");
@@ -176,7 +181,7 @@ function guess(input){
         //console.log("Pos", Postemp);
         //console.log("Neg", Negtemp);
 
-        if ((Postemp > 0.4) && (Postemp < 0.6))
+        if ((Postemp > 0.45) && (Postemp < 0.55))
 			return {label: "neutral", value: Postemp};
         else if (Postemp > 0.6)
 			return {label: "positive", value: Postemp};
