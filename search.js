@@ -1,4 +1,7 @@
-
+/*
+The following is not free application. You may use it for educational purposes, but you may not redistribute or use it commercially.
+(C) All Rights Reserved, Rushil Kapoor 2014
+*/
 
 var baseUrl = "http://api.rottentomatoes.com/api/public/v1.0";
 var movieStore = [], reviewStore = [];
